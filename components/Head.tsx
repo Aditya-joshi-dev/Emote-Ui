@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: '#B1EDE8',
         borderRadius: 10,
         margin: 10,
 
@@ -58,5 +57,6 @@ const styles = StyleSheet.create({
        height:35,
        width:35,
        borderRadius: 60/2,
+
     }
 });
