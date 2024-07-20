@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
 const PlanBody = () => {
@@ -27,7 +27,32 @@ const PlanBody = () => {
               <Text style={[styles.textdesign]}> A2 room </Text>
             </View>
           </View>
-          <View style={styles.boxThree} />
+          <View style={styles.boxThree}>
+            <View style={styles.insta}>
+              <Image
+                source={{
+                  uri: 'https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-512.png',
+                }}
+                style={styles.socialIcon}
+              />
+            </View>
+            <View style={styles.insta}>
+              <Image
+                source={{
+                  uri: 'https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Tumblr2_colored_svg-128.png',
+                }}
+                style={styles.socialIcon}
+              />
+            </View>
+            <View style={styles.insta}>
+              <Image
+                source={{
+                  uri: 'https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png',
+                }}
+                style={styles.socialIcon}
+              />
+            </View>
+          </View>
         </View>
       </View>
     </View>
@@ -42,17 +67,18 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     padding: 10,
   },
-  headtitle:{
+  headtitle: {
     fontWeight: 'bold',
     fontSize: 22,
     marginTop: 10,
     left: 30,
-},
+  },
   boxOne: {
     flex: 1,
     backgroundColor: '#EDB458',
     height: 10,
     borderRadius: 32,
+    elevation: 3,
   },
   oneText: {
     position: 'absolute',
@@ -78,6 +104,7 @@ const styles = StyleSheet.create({
     height: 200,
     margin: 5,
     borderRadius: 32,
+    elevation: 3,
   },
   boxThree: {
     flex: 1,
@@ -85,6 +112,14 @@ const styles = StyleSheet.create({
     height: 100,
     margin: 5,
     borderRadius: 32,
+    elevation: 3,
+    flexDirection:'row',
+    alignItems: 'center',
+    justifyContent:'space-evenly',
+
+
+  },
+  insta: {
   },
   firstContainer: {
     flex: 1,
@@ -92,5 +127,10 @@ const styles = StyleSheet.create({
   },
   secondContainer: {
     flex: 1,
+  },
+  socialIcon: {
+    height: 35,
+    width: 38,
+    elevation:3,
   },
 });
