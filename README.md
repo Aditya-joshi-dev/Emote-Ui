@@ -1,5 +1,15 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+#Introduction 
+
+In this folder, i am creating a simple Ui for an App for learning purpose where i implement the  uses of core components of React Native and styling the components for parctice purpose.
+
+#Screenshot of UI
+
+![Screenshot_2024-07-20-12-28-37-695_com emoteui](https://github.com/user-attachments/assets/8acf716c-be79-4fd3-94fb-3bf9564cca4d)
+
+
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
